@@ -582,12 +582,6 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 211218447}
-    - target: {fileID: 7103976874358557300, guid: 8fe145c7da5488e4f8f4a3d59bd97b2a,
-        type: 3}
-      propertyPath: m_ModelPrefab
-      value: 
-      objectReference: {fileID: 5555078227555619916, guid: 6b08ffe78fede2741b041b85c010900d,
-        type: 3}
     - target: {fileID: 7103976874840198522, guid: 8fe145c7da5488e4f8f4a3d59bd97b2a,
         type: 3}
       propertyPath: m_Name
@@ -653,11 +647,5 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 211218447}
-    - target: {fileID: 7103976875252941943, guid: 8fe145c7da5488e4f8f4a3d59bd97b2a,
-        type: 3}
-      propertyPath: m_ModelPrefab
-      value: 
-      objectReference: {fileID: 5555078227555619916, guid: 6b08ffe78fede2741b041b85c010900d,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fe145c7da5488e4f8f4a3d59bd97b2a, type: 3}
