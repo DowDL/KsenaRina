@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Assets/ExampleAssets/Materials/New Material.mat.meta
 guid: 5f8d1487f2f353e4ba34085ed1564068
+=======
+guid: 9ca22510633fbfd4399f1704cd9d5c72
+>>>>>>> Stashed changes:Assets/materialyskybox/Materials/FS002/FS002_Day.mat.meta
+=======
+guid: 5f8d1487f2f353e4ba34085ed1564068
+>>>>>>> Stashed changes
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
