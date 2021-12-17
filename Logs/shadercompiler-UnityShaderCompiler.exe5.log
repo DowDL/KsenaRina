@@ -8,3 +8,5 @@ Cmd: compileSnippet
 
 >>>>>>> Stashed changes
 Cmd: shutdown
+
+Quitting shader compiler process

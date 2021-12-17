@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream:Assets/Prefabs/Hand_R.controller.meta
-guid: fa1a6f11ffdef6f48868b7cb35b3779e
-=======
-guid: 67950864b84c5db4f9eee7ca51c85571
->>>>>>> Stashed changes:Assets/materialyskybox/Materials/FS002/FS002_Day_Sunless.mat.meta
+guid: 0a6f14e306ba841409675e696f89d260
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
