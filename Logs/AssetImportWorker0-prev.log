@@ -1,16 +1,25 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.23f1 (b50729e604a9) revision 11863849'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< Updated upstream
 OS: 'Windows 10 Pro; OS build 19041.1288; Version 2004; 64bit' Language: 'ru' Physical Memory: 16203 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.1.23f1\Editor\Unity.exe
+=======
+OS: 'Windows 10 Home; OS build 19043.1387; Version 2009; 64bit' Language: 'en' Physical Memory: 8010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.23f1\Editor\Unity.exe
+>>>>>>> Stashed changes
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 D:/Temp/KsenaRina-DowDL
 -logFile
 Logs/AssetImportWorker0.log
@@ -223,3 +232,13 @@ Received Import Request.
   artifactKey: Guid(0cbc4eeb439767f439dc780dcdbeb5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/materialyskybox/tex/New Material.mat using Guid(0cbc4eeb439767f439dc780dcdbeb5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10252ef85f6d2870977b3a588098c0e2') in 0.056226 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+C:/Users/irena/Downloads/KsenaRina-DowDL/KsenaRina-DowDL
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60892
+Successfully changed project path to: C:/Users/irena/Downloads/KsenaRina-DowDL/KsenaRina-DowDL
+C:/Users/irena/Downloads/KsenaRina-DowDL/KsenaRina-DowDL
+Using Asset Import Pipeline V2.
+>>>>>>> Stashed changes
