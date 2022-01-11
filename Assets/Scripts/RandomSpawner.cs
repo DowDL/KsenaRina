@@ -4,16 +4,37 @@ using UnityEngine;
 
 public class RandomSpawner : MonoBehaviour
 {
-    public GameObject Donut_1;
-    public GameObject Donut_2;
-    public GameObject Donut_3;
-    public GameObject Donut_4;
+    //public GameObject Donut_1;
+    //public GameObject Donut_2;
+    //public GameObject Donut_3;
+    //public GameObject Donut_4;
+    public List<GameObject> Donuts = new List<GameObject>();
+
     private int Donuts_count = 1;
     public float Radius = 1.0f;
     public float TimeLeft = 60.0f;
+    public float Delay = 1f;
+    public float Timer;
+
+    //void Start()
+   // {
+    //    Donuts.Add(Donut_1);
+    //    Donuts.Add(Donut_2);
+   //     Donuts.Add(Donut_3);
+    //    Donuts.Add(Donut_4);
+   // }
 
     void Update()
     {
+        if(Timer <= 0)
+        {
+            SpawnObjectAtRandom(Donuts[Random.Range(0, Donuts.Count)]);
+            Timer = Delay;
+        }
+        Timer -= Time.deltaTime;
+
+        return;
+/*
         if (TimeLeft >= 0)
         {
             switch (Donuts_count)
@@ -37,6 +58,7 @@ public class RandomSpawner : MonoBehaviour
         TimeLeft -= Time.deltaTime;
             ++Donuts_count;
         } 
+*/
     }
 
     void SpawnObjectAtRandom(GameObject donut)
